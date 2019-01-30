@@ -2,6 +2,10 @@ html, body {
   /* height: 100%; */
 }
 
+title {
+  display: none;
+}
+
 @font-face {
   font-family: 'Chivo', sans-serif;
   src: url(Chivo-Regular.ttf);
@@ -381,7 +385,7 @@ padding-right:20px;
 
   .bodycopy {
   width:360px;
-    
+
       line-height: 2;
         margin-top:50px;
   }
