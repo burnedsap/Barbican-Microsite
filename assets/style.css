@@ -249,6 +249,7 @@ color:#212121;
   border-bottom: 1px solid #33A992;
 }
 .info .info1{
+
   max-width: 600px;
 line-height: 1.8;
   padding-bottom: 30px;
@@ -271,7 +272,10 @@ text-decoration: none;
   text-decoration: none;
   border-bottom: 1px solid #212121;
 }
-
+.info1 .email{
+  border-bottom: 0px ;
+  display:inline;
+}
 
 .email{
   display:block;
@@ -289,6 +293,9 @@ text-decoration: none;
   text-align: center;
   margin-top: 50px;
 }*/
+.logos a{
+  border-bottom: 0px ;
+}
 .logos{
     margin-top: 25px;
     margin-bottom: 25px;
@@ -304,12 +311,15 @@ text-decoration: none;
 .logo2,
 .logo3,
 .logo5,
-.logo6{
+.logo6,
+.logo7,
+.logo8{
 padding-right:50px;
 padding-bottom:25px;
 }
 .logo4,
-.logo7{
+.logo7,
+.logo9{
   padding-bottom:25px;
 }
 
@@ -331,14 +341,20 @@ padding-bottom:25px;
     height:45px;
 }
 .logo6{
-  width:50px;
-
+  width:65px;
 }
 .logo7{
-  width:50px;
+  width:70px;
+}
+
+.logo8{
+  width:100px;
 
 }
 
+.logo9{
+  width:85px;
+}
 @media(max-width:1200px){
 .info{
   padding-left:50px;
@@ -372,7 +388,7 @@ padding-bottom:25px;
     height:auto;
   }
   .logos{
-    max-width: 500px;
+    max-width: 550px;
   }
   .info3{
     margin-top:5px;
@@ -416,7 +432,11 @@ height:auto;
  .logo2,
  .logo3,
  .logo5,
- .logo4{
+ .logo4,
+ .logo6,
+ .logo7,
+ .logo8,
+ .logo9{
  padding-right:0px;
  padding-bottom: 30px;
    display: block;
