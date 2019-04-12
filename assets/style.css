@@ -241,8 +241,8 @@ display:inline;
 .video{
   float:left;
   margin-left:50px;
-  margin-bottom:25px;
-  height:300px;
+  margin-bottom:20px;
+  height:auto;
   width:400px;
 }
 .output{
