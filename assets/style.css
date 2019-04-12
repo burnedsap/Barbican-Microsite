@@ -239,7 +239,6 @@ display:inline;
   font-weight: 400;
 }
 .video{
-  background-color: #666;
   float:left;
   margin-left:50px;
   margin-bottom:50px;
@@ -609,7 +608,7 @@ max-width:600px;
 color:#212121;
 }
 .main img{
-  width:600px;
+  width:300px;
   height:auto;
 }
 .info a{
@@ -679,6 +678,7 @@ text-decoration: none;
 .logo1,
 .logo2,
 .logo3,
+.logo4,
 .logo5,
 .logo6,
 .logo7,
@@ -686,7 +686,7 @@ text-decoration: none;
 padding-right:50px;
 padding-bottom:25px;
 }
-.logo4,
+.logo10,
 .logo7,
 .logo9{
   padding-bottom:25px;
@@ -696,10 +696,13 @@ padding-bottom:25px;
   width:55px;
 }
 .logo2{
-  width:100px;
+  width:90px;
 }
 .logo3{
-  width:70px;
+  width:65px;
+}
+.logo10{
+  width:90px;
 }
 .logo4{
   width:100px;
@@ -753,7 +756,7 @@ padding-bottom:25px;
   max-width:500px;
   }
   .main img{
-    width:500px;
+    width:200px;
     height:auto;
   }
   .logos{
@@ -782,7 +785,7 @@ height:auto;
   font-size:21px;
   }
   .main img{
-    width:80vw;
+    width:40vw;
     height:auto;
   }
 
