@@ -227,7 +227,7 @@ display:inline;
   border-bottom: 1px solid #212121 ;
 }
 .blurbs{
-  float:right;
+  float: left;
   padding-left:50px;
   padding-right:50px;
   padding-bottom:50px;
@@ -241,7 +241,7 @@ display:inline;
 .video{
   float:left;
   margin-left:50px;
-  margin-bottom:50px;
+  margin-bottom:25px;
   height:300px;
   width:400px;
 }
@@ -732,9 +732,7 @@ padding-bottom:25px;
   padding-left:50px;
   float:left;
 }
-.blurbs{
-  float:left;
-}
+
 
 
 }
