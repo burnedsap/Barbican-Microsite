@@ -866,7 +866,11 @@ padding-bottom:25px;
   .asset2 img{
     padding-left:0;
   }
-  
+.vrassets,
+.output3{
+  margin-left:5vw;
+  margin-right:5vw;
+}
   .info{
     margin-right:20px;
 
