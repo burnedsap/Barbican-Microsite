@@ -918,7 +918,11 @@ height:auto;
     width:40vw;
     height:auto;
   }
-
+  .vrassets,
+  .output3{
+    margin-left:5vw;
+    margin-right:5vw;
+  }
   .title {
     padding-bottom:15px;
 
