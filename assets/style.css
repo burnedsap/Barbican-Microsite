@@ -345,6 +345,19 @@ padding-bottom:50px;
   font-weight: 400;
 
 }
+.postcardswhiteheader{
+  display: block;
+  text-align: left;
+  padding-left:50px;
+  padding-top:50px;
+
+  height:auto;
+  line-height: 1.4;
+  color:#ededed;
+  font-family:'Space Mono', monospace;
+  font-weight: 400;
+
+}
 .postcard1{
 
   margin-right:5%;
@@ -969,7 +982,7 @@ height:auto;
  }
  .video{
    height:200px;
-   width:320px;
+   width:270px;
    outline: none;
    box-shadow: none;
   margin-left: 0px;
@@ -985,11 +998,14 @@ height:auto;
    padding-right: 25px;
  }
  .postcardswhite{
+   padding-left:0px;
+   padding-right: 0px;
+ }
+ .postcardswhiteheader{
    padding-left:25px;
    padding-right: 0px;
  }
-.vr1,
-.vr2,
+
 .asset img,
 .asset2 img,
 .asset1{
@@ -997,8 +1013,13 @@ height:auto;
     padding-right:50px;
 }
 .vr1,
+.vr2{
+  padding-left:0;
+    padding-right:0px;
+}
+.vr1,
 .asset2 img{
-  width:360px;
+  width:300px;
 }
 .asset1{
   max-width:300px;
