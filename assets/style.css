@@ -963,10 +963,13 @@ height:auto;
   font-size:24px;
 }
 .blurbs,
- .postcards,
- .postcardswhite{
+ .postcards{
    padding-left:25px;
    padding-right: 25px;
+ }
+ .postcardswhite{
+   padding-left:0px;
+   padding-right: 0px;
  }
 .vr1,
 .vr2,
