@@ -84,6 +84,7 @@ right:25px;
 }
 
 .about{
+
 color:#EDEDED ;
 }
 
@@ -230,8 +231,9 @@ width: 90%;
   background-color:#EDEDED;
 }
 .blurb1{
+  font-style: italic;
   font-size:32px;
-color:#33A992;
+color:#222;
 }
 .hum_heroes1{
   font-size:16px;
@@ -243,6 +245,7 @@ display:inline;
 
     font-family: 'Bobo';
 }
+
 .blurb1,
 .blurb2,
 .blurb3{
@@ -953,14 +956,16 @@ height:auto;
   padding-bottom:25px;
  }
  .video{
+   height:200px;
+   width:320px;
    outline: none;
    box-shadow: none;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
 
 }
 .blurb1{
-  font-size:24px;
+  font-size:18px;
 }
 .blurbs,
  .postcards{
@@ -968,7 +973,7 @@ height:auto;
    padding-right: 25px;
  }
  .postcardswhite{
-   padding-left:0px;
+   padding-left:25px;
    padding-right: 0px;
  }
 .vr1,
@@ -984,6 +989,9 @@ height:auto;
 }
 .asset1{
   max-width:300px;
+}
+.header1{
+  display:none;
 }
  /*.logos{
   display: flex;
