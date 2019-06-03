@@ -436,23 +436,23 @@ height:auto;
 }
 
 .asset img{
-  margin-bottom:20px;
+  margin-bottom:10px;
   width:210px;
   height:auto;
 padding-left:50px;
 }
 .asset2 img{
-  margin-bottom:20px;
+  margin-bottom:10px;
   width:700px;
   height:auto;
   padding-left:50px;
 }
 .asset1{
 
-  padding-left:10px;
-  padding-bottom:10px;
+padding-left:50px;
+  margin-bottom:25px;
 
-    padding-right:20px;
+    padding-right:10px;
   font-size: 16px;
   color:#ededed;
   font-family:'Space Mono', monospace;
@@ -876,8 +876,10 @@ padding-bottom:25px;
   .vr1,
   .vr2,
   .asset img,
-  .asset2 img{
+  .asset2 img,
+  .asset1{
     padding-left:0;
+    padding-right:50px;
   }
 .vrassets,
 .output3{
@@ -992,6 +994,7 @@ height:auto;
 .asset2 img,
 .asset1{
   padding-left:0;
+    padding-right:50px;
 }
 .vr1,
 .asset2 img{
