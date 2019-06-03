@@ -1,3 +1,12 @@
+
+
+$('.header2').on('click', function(){
+  $('.blurb').css('z-index', 99)
+})
+$('.close').on('click', function(){
+  $('.blurb').css('z-index', 0)
+})
+
 $('.postcard1').on('click', function(){
   $('.postcard1_back1').toggleClass('show')
 })
