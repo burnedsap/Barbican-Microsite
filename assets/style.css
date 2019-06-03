@@ -850,6 +850,12 @@ padding-bottom:25px;
 .logo9{
   width:85px;
 }
+@media(max-width:1200px){
+.output3{
+  margin-left:50px;
+  margin-right:50px;
+
+}
 @media(max-width:500px){
 .info{
   padding-left:50px;
@@ -862,6 +868,10 @@ padding-bottom:25px;
 @media(max-width:900px){
   .bodycopy{
     line-height: 1.6;
+  }
+  .vr1,
+  .asset2 img{
+    width:500px;
   }
   .vr1,
   .vr2,
@@ -985,7 +995,7 @@ height:auto;
 }
 .vr1,
 .asset2 img{
-  max-width:360px;
+  width:360px;
 }
 .asset1{
   max-width:300px;
