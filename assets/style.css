@@ -224,7 +224,7 @@ width: 90%;
   top:0;
   left:0;
   padding-top:0px;
-  z-index:0;
+  z-index: 0;
   overflow: scroll;
   height:100vh;
   width:100vw;
@@ -304,7 +304,8 @@ iframe{
     width:100vw;
 }
 .vrassets{
-
+display:flex;
+flex-wrap: wrap;
   max-width:80vw;
   margin-left: 10vw;
   margin-right: 10vw;
@@ -335,9 +336,10 @@ padding-bottom:50px;
 .postcardswhite{
   display: block;
   text-align: left;
-  padding-left:50px;
-  padding-top:50px;
-
+padding-left:0;
+  padding-bottom:5px;
+    padding-top:5px;
+width:200px;
   height:auto;
   line-height: 1.4;
   color:#ededed;
@@ -420,10 +422,11 @@ opacity:1;
    margin-top:50px;
   display:block;
 }
-.vr1{
+.vr1 img{
   outline: none;
   box-shadow: none;
-  padding-left:50px;
+  padding-left:0;
+  padding-right:25px;
   display: block;
   padding-top:20px;
 width:700px;
@@ -432,9 +435,10 @@ height:auto;
 .vr2{
   outline: none;
   box-shadow: none;
-  padding-top:25px;
-  padding-left:50px;
-width:300px;
+  padding-top:5px;
+  padding-bottom:15px;
+  padding-left:0;
+width:250px;
 height:auto;
 }
 .output2{
@@ -450,7 +454,7 @@ height:auto;
 
 .asset img{
   margin-bottom:10px;
-  width:210px;
+  width:400px;
   height:auto;
 padding-left:50px;
 }
@@ -473,6 +477,8 @@ padding-left:50px;
   /* margin-top:10px; */
   max-width:200px;
 }
+
+
 .catalogue1{
   position: relative;
   overflow: scroll;
@@ -882,11 +888,11 @@ padding-bottom:25px;
   .bodycopy{
     line-height: 1.6;
   }
-  .vr1,
+  .vr1 img,
   .asset2 img{
     width:500px;
   }
-  .vr1,
+  .vr1 img,
   .vr2,
   .asset img,
   .asset2 img,
@@ -1017,8 +1023,10 @@ height:auto;
   padding-left:0;
     padding-right:0px;
 }
-.vr1,
-.asset2 img{
+
+.vr1 img,
+.asset2 img,
+.asset img{
   width:300px;
 }
 .asset1{

@@ -1,11 +1,20 @@
 
-
 $('.header2').on('click', function(){
   $('.blurb').css('z-index', 99)
+  $('.blurb').css('opacity', 1)
 })
 $('.close').on('click', function(){
   $('.blurb').css('z-index', 0)
 })
+
+$(document).on('scroll', function(){
+    var pixels = $(document).scrollTop()
+
+   $('.blurb').css('opacity', 1 - pixels / 300)
+
+
+})
+
 
 $('.postcard1').on('click', function(){
   $('.postcard1_back1').toggleClass('show')
