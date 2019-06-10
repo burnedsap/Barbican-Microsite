@@ -303,7 +303,7 @@ iframe{
     background-color: #222;
     width:100vw;
 }
-.vrassets{
+.vrassets{ 
 display:flex;
 flex-wrap: wrap;
   max-width:80vw;
